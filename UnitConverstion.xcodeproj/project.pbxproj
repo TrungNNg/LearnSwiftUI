@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		877A830F2AF6C30300380387 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 877A830D2AF6C30300380387 /* Bookworm.xcdatamodeld */; };
+		87B3AAB12AE59F4F00544606 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B3AAB02AE59F4F00544606 /* start.txt */; };
+		87EBA4722AE997B50047364A /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 87EBA4702AE997B50047364A /* astronauts.json */; };
+		87EBA4732AE997B50047364A /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 87EBA4712AE997B50047364A /* missions.json */; };
 		87F44ACF2AD6F5C60061C9C0 /* UnitConverstionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F44ACE2AD6F5C60061C9C0 /* UnitConverstionApp.swift */; };
 		87F44AD12AD6F5C60061C9C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F44AD02AD6F5C60061C9C0 /* ContentView.swift */; };
 		87F44AD32AD6F5C70061C9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F44AD22AD6F5C70061C9C0 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		877A830E2AF6C30300380387 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		87B3AAB02AE59F4F00544606 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		87EBA4702AE997B50047364A /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		87EBA4712AE997B50047364A /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		87F44ACB2AD6F5C60061C9C0 /* UnitConverstion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitConverstion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F44ACE2AD6F5C60061C9C0 /* UnitConverstionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverstionApp.swift; sourceTree = "<group>"; };
 		87F44AD02AD6F5C60061C9C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +61,11 @@
 			children = (
 				87F44ACE2AD6F5C60061C9C0 /* UnitConverstionApp.swift */,
 				87F44AD02AD6F5C60061C9C0 /* ContentView.swift */,
+				87EBA4702AE997B50047364A /* astronauts.json */,
+				87EBA4712AE997B50047364A /* missions.json */,
 				87F44AD22AD6F5C70061C9C0 /* Assets.xcassets */,
+				877A830D2AF6C30300380387 /* Bookworm.xcdatamodeld */,
+				87B3AAB02AE59F4F00544606 /* start.txt */,
 				87F44AD42AD6F5C70061C9C0 /* Preview Content */,
 			);
 			path = UnitConverstion;
@@ -126,7 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				87F44AD62AD6F5C70061C9C0 /* Preview Assets.xcassets in Resources */,
+				87EBA4732AE997B50047364A /* missions.json in Resources */,
+				87B3AAB12AE59F4F00544606 /* start.txt in Resources */,
 				87F44AD32AD6F5C70061C9C0 /* Assets.xcassets in Resources */,
+				87EBA4722AE997B50047364A /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87F44AD12AD6F5C60061C9C0 /* ContentView.swift in Sources */,
+				877A830F2AF6C30300380387 /* Bookworm.xcdatamodeld in Sources */,
 				87F44ACF2AD6F5C60061C9C0 /* UnitConverstionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,8 +288,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,8 +316,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +353,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		877A830D2AF6C30300380387 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				877A830E2AF6C30300380387 /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = 877A830E2AF6C30300380387 /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 87F44AC32AD6F5C60061C9C0 /* Project object */;
 }
